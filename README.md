@@ -54,5 +54,6 @@ All commands are run from the root of the project, from a terminal:
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
 
-Site Preview: [https://ornate-figolla-c73a89.netlify.app](https://ornate-figolla-c73a89.netlify.app)
+Site Preview: [https://ornate-figolla-c73a89.netlify.app](https://ornate-figolla-c73a89.netlify.app)  
+
 Deploy to Netlify: https://www.youtube.com/watch?v=3yip2wSRX_4&t=159s
