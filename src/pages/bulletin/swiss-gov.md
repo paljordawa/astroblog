@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
 title: Swiss Government Calls on China to Abolish the Colonial Boarding Schools
+image: ../images/10-useful-git-tips.png
 excerpt: Statement released on April 13, 2023 Original Statement
 date: 2021-07-25
 ---
