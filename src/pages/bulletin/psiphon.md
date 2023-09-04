@@ -1,10 +1,13 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
-title:  "Psiphon"
+title: Psiphon
 category: VPN
-image: /img/psiphon.jpeg
-date: 2023-12-21
-excerpt: Psiphon is a free and open-source Internet censorship circumvention tool that uses a combination of secure communication and obfuscation technologies, such as a VPN, SSH, and a Web proxy
+date: 2023-12-21T00:00:00.000Z
+image: /images/Untitled-1.jpg
+excerpt: >-
+  Psiphon is a free and open-source Internet censorship circumvention tool that
+  uses a combination of secure communication and obfuscation technologies, such
+  as a VPN, SSH, and a Web proxy
 ---
 
 Where other VPNs can’t connect, Psiphon will find a way.
