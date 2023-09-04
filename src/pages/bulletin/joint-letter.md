@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
 title: Joint Letter to US Secretary of State on His Visit to China
+image: ../images/10-useful-git-tips.png
 excerpt:   Dear Secretary Blinken, We write on behalf of 42 nongovernmental organizations that report on and advocate for human rights...
 date: 2021-07-12
 ---
@@ -16,7 +17,6 @@ In recent months, Chinese authorities have targeted many communities for repress
 
 In Tibetan and Uyghur regions, the authorities harshly punish people who communicate with those abroad to further prevent the outside world from learning about these highly repressive and surveilled regions. Instances of Chinese government transnational repression continue to occur around the world.
 
-![thumbnail](https://s7712.pcdn.co/wp-content/uploads/2023/06/Jointletter-580x360.png)
 
 Decades of human rights diplomacy by foreign governments have failed to deter Chinese authorities, particularly President Xi Jinping, from deepening repression. The US State Department has characterized Chinese government policies in the Uyghur region as genocide and crimes against humanity. We appreciate US efforts to prosecute cases of transnational repression perpetrated by Chinese state actors, yet the existence of these cases reflect Beijing’s determination to silence peaceful criticism globally.
 
