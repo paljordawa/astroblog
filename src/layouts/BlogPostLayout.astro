@@ -19,7 +19,7 @@ const {frontmatter} = Astro.props
 	<body class="">
 	<Header></Header>
 	<div class="p-10 max-w-6xl mx-auto text-xl">
-	<Image src={frontmatter.image} alt={frontmatter.image} width="200" height="100"></Image>
+	<div class="w-full"><Image src={frontmatter.image} alt={frontmatter.image} width="500" height="100" class="object-cover"></Image></div>
     <p class="text-sm font-bold rounded mx-1 text-teal-500"><span>{frontmatter.category}</span></p>
     <h2 class="text-3xl font-bold py-5">{frontmatter.title}</h2>
     
