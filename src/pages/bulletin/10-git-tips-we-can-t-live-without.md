@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
 title: 10 Git tips we can't live without
-date: '2023-09-04'
+date: '2023-09-01T00:00:00+05:30'
 image: /images/10-useful-git-tips.png
-excerpt: 
+excerpt: >-
   Opensource.com community members share their favorite Git tips for saving time
   or preventing mistakes.
 ---
