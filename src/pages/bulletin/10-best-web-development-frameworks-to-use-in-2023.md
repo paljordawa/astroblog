@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: 10 Best Web Development Frameworks to Use in 2023
 category: Web Framework
-date: '2023-09-04T11:21:51+05:30'
+date: '2023-09-04'
 image: /images/10-useful-git-tips.png
 excerpt: >-
   Frameworks have become an essential part of web development, as the standards

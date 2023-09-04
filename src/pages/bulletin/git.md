@@ -4,7 +4,7 @@ title:  "What is Git"
 category: review
 image: /img/git-save-username-password.jpg
 excerpt: Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development. 
-date: 2022-11-23
+date: '2022-11-23'
 ---
 Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development. Linus Torvalds created Git in 2005 for the development of the Linux kernel
 

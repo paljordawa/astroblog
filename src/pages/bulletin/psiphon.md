@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: Psiphon
 category: VPN
-date: 2023-12-21T00:00:00.000Z
+date: '2022-12-22'
 image: /images/Untitled-1.jpg
 excerpt: >-
   Psiphon is a free and open-source Internet censorship circumvention tool that

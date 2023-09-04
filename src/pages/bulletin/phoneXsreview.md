@@ -3,7 +3,7 @@ layout: ../../layouts/BlogPostLayout.astro
 title:  "Apple iPhone XS review: the inbetweener you can’t ignore"
 category: techreview
 image: /img/iphone_xs_back.jpg
-date: 2022-12-10
+date: '2023-02-10'
 excerpt: The iPhone XS Max is the shining star of the new lineup – with its large display and battery, it’s the one that most people have their eyes on.
 ---
 
