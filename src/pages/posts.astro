@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+const pageTitle = "Blogpost";
+
+const res = await fetch("https://jsonplaceholder.typicode.com/users");
+const data =await res.json();
+---
+<Layout title={pageTitle}></Layout>
+
+<ul>
+    {
+        data.map(person => {
+            <p>{person.name}</p>
+        })
+    }
+</ul>
+

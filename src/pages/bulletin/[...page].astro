@@ -1,0 +1,30 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import Pagination from "../../components/Pagination.astro";
+
+export async function getStaticPaths({paginate}){
+    const allPosts = await Astro.glob('./*.md');
+    const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
+    return paginate(sortedPosts, {pageSize:4});
+}
+const title = "Bulletin"
+const {page} = Astro.props;
+---
+
+<MainLayout title="Astro Project /">
+    <div class=" w-full rounded-lg">
+        <h2 class="text-3xl font-extrabold p-10 text-center" >{title}</h2>
+        
+        <div class="m-5 grid grid-cols-3 gap-5">
+        {page.data.map((post) => (
+                <div class="p-5 border bg-slate-100 rounded-md">
+                    <p class="text-sm font-bold rounded mx-1 text-teal-500"><span>{post.frontmatter.category}</span></p>
+                    <a class="text-2xl font-bold" href={post.url}>{post.frontmatter.title}</a>  
+                    <p class="text-lg">{post.frontmatter.excerpt}</p>   
+                    <p><span class="text-sm">{post.frontmatter.date}</span></p>
+                </div>        
+        ))}
+     </div>
+     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next}></Pagination>  
+	</div>
+</MainLayout>

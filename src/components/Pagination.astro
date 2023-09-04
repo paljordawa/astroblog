@@ -1,0 +1,18 @@
+---
+// component imports
+import Link from "./Link.astro";
+
+const { prevUrl, nextUrl } = Astro.props;
+---
+<nav aria-label="Blog pages" class="w-3xl flex space-between justify-between">
+  {
+    prevUrl && (
+    <a href={prevUrl} class="text-xl px-5 py-2 rounded-md bg-teal-900 text-slate-200">Previous</a>
+    )
+  }
+  {
+    nextUrl && (
+      <a href={nextUrl} class="text-xl px-5 py-2 rounded-md bg-teal-900 text-teal-300 hover:text-teal-600">NEXT</a>
+    )
+  }
+</nav>

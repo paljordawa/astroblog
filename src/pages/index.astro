@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import MainLayout from '../layouts/MainLayout.astro';
+const title = "TIBCERT BLOG"
+
+---
+
+<MainLayout title={title}>
+
+	<div class="mt-20 bg-red-200 w-full rounded-lg">
+		<h2 class="text-3xl font-extrabold p-10" >TIBCERT</h2>
+	<p class="text-xl  px-10 pb-10">
+		The Tibetan Computer Emergency Readiness Team is a formal, coalition-based structure that reduces and mitigates online threats in the Tibetan community. By expanding Tibetans’ technical research capacity on threats in the diaspora as well as surveillance and censorship inside Tibet, TibCERT ultimately ensures greater online freedom and security for Tibetan society as a whole.
+	</p>
+	</div>
+
+	<h2 class="text-center text-3xl font-bold my-10">Our Latest Articles </h2>
+	<div class="mx-auto w-full grid md:grid-cols-2 sm:grid-cols-1 align-top gap-3">
+		<div class=" w-full bg-slate-800  md:p-20 rounded-md min-h-full">
+			<h2 class="sm:text-3xl md:text-5xl  sm:p-10 font-bold text-center text-white">BULLETIN</h2>	
+		</div>
+		<div class="w-full bg-slate-800  md:p-20 rounded-md min-h-full">
+			<h2 class="sm:text-3xl md:text-5xl sm:p-10  font-bold text-center text-white">REPORTS</h2>
+		</div>
+		
+	</div>
+
+</MainLayout>
