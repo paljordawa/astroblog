@@ -1,13 +1,13 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import { Image } from 'astro:assets';
-import localBirdImage from '../images/Dawa-Paljor.jpg';
+
 ---
 <MainLayout title="Astro Project / About">
     
     <div class="mt-20 w-full rounded-lg">
         <h2 class="text-3xl font-extrabold p-10" >About Me</h2>
-        <Image class="m-10 w-40"  alt=""  src={localBirdImage} />
+        <Image class="m-10 w-60"  alt="mp pic"  src="../images/Snapseed.png" width={400} height={400} />
         <p class="text-xl px-10 pb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur laboriosam vel est obcaecati! Tempora consequatur fuga,</p>
 	</div>
 </MainLayout>
