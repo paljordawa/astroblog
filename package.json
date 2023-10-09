@@ -3,8 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-     "dev": "astro dev",
-     "dev": "tinacms dev -c 'astro dev'"
+     "dev": "tinacms dev -c 'astro dev'",
+    "build": "tinacms build && astro build"
+    
   },
   "dependencies": {
     "@astrojs/tailwind": "^4.0.0",
